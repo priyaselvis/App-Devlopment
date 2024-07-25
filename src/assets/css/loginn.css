@@ -1,0 +1,73 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login
+{
+    background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 1) 4px 6px 10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  
+}
+.container{
+    padding: 50px;
+
+}
+
+.Login-Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abc
+{
+    font-size: 50px;
+    text-align: center;
+}
+.email,.password
+{
+    font-size: 20px;
+    color: rgb(16, 14, 14);
+}
+#e,#p
+{
+    border-radius: 15px;
+    height:37px;
+    width: 200px;
+    border-color: purple;
+}
+.button
+{
+    margin-top:15px;
+}
+.error
+{
+    color:red;
+}
+.message
+{
+    color:rgb(31, 196, 31);
+}
+.page
+{
+    background-image: url("https://i.pinimg.com/originals/6c/f1/b0/6cf1b0824e23aa6b830b6962337615be.jpg");
+    height:100vh;
+    width:100vw;
+    background-position: center center;
+    position:fixed;
+    background-size: cover;
+    z-index:-1;
+    opacity: 0.8;
+}
+
+@media (max-width:400px)
+{
+    .container{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,87 @@
+.Signup-page
+{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDQtbWluZC0wM18xXzIuanBn.jpg");
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.heading-signup
+{
+    font-size: 50px;
+}
+.page-abc
+{
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    padding:50px;
+    background: rgba(255, 255, 255, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.signup-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.username
+{
+    padding-top:15px;
+    color: black;
+}
+.signup-email
+{
+    padding-top:15px;
+    color: black;
+}
+.signup-password
+{
+    padding-top:15px;
+    color: black;
+}
+#input-username
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color:skyblue;
+    height: 30px;
+    width:200px;
+}
+#input-email
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: skyblue;
+    height: 30px;
+    width:200px;
+}
+#input-pwd
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: skyblue;
+    height: 30px;
+    width:200px;    
+}
+.signup-button
+{
+    margin-top: 10px;
+
+}
+.signup-message
+{
+    color:rgb(95, 11, 83);
+}
